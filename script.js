@@ -129,7 +129,7 @@ function checkout() {
 check.addEventListener("click", checkout);
 
 const cartBtn = document.querySelector(".cart-btn");
-
+//  CART REACTION
 function cartBtnClick() {
     cartNumCont.style.display === `none` ? `flex` : `none`;
     if (number.textContent == 0 && cartNum.textContent == 0) {
