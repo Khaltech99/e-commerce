@@ -4,12 +4,14 @@ const menu = document.querySelector(".menu");
 const slide = document.querySelector("#navbar ul");
 const cancel = document.querySelector(".close");
 
-function open() {
-    slide.style.left = "0";
-}
+slide.style.left = `-300px`;
 
 function close() {
     slide.style.left = "-300px";
+}
+
+function open() {
+    slide.style.left = "1px";
 }
 
 menu.addEventListener("click", open);
